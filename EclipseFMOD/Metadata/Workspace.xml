@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{04562589-f69b-494e-a193-d5d4a5fb0d64}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../Unity/Projects/Eclipse/Assets/Plugins/FMOD/Banks</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{c9d5dcfb-859f-471f-bc30-3f5e99b7f508}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{ab4d1d28-50c4-4697-8451-f5fd6856db1d}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{1a7b9879-dcc3-40fd-b4c4-ad1116e4b106}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{20132c32-d6e2-4cd7-a426-cc850b1de3b2}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{9c6df00f-ef5d-4ac0-9d13-1164628a0b28}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{4631ca65-38d6-4c24-9361-7f5b7dd5f33b}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{1c718811-96e8-4271-ac0d-b38119ae5b4b}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{5c4de5bc-74ef-4175-ac0a-b32273c0473f}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{49fe7eab-1443-49b3-a777-914df4783fcb}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{899b34b4-6cc9-463e-aba1-1228c0fe299a}</destination>
+		</relationship>
+	</object>
+</objects>

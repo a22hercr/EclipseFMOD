@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d020caa5-48ea-4858-9d22-1707331f958c}">
+		<property name="name">
+			<value>BirdLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{617bd741-318e-431a-bef5-d7af85acacd4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c3605053-23fa-4441-9267-ef43e79391da}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c3605053-23fa-4441-9267-ef43e79391da}">
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

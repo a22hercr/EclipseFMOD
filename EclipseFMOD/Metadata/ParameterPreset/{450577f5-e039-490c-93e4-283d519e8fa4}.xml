@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{450577f5-e039-490c-93e4-283d519e8fa4}">
+		<property name="name">
+			<value>Insideness</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20132c32-d6e2-4cd7-a426-cc850b1de3b2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5a06812a-fdc3-4e2c-a96c-830a9af519c5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5a06812a-fdc3-4e2c-a96c-830a9af519c5}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1.8999999761581421</value>
+		</property>
+	</object>
+</objects>

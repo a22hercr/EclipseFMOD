@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b1d5bf82-d1e1-4dd5-8ce6-3d0729caced4}">
-		<property name="assetPath">
-			<value>Music/EclipseNeighbourBase.wav</value>
-		</property>
+		<property name="assetPath" />
 		<property name="isStreaming">
 			<value>true</value>
 		</property>

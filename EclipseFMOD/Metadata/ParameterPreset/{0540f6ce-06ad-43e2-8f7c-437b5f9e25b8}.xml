@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{0540f6ce-06ad-43e2-8f7c-437b5f9e25b8}">
+		<property name="name">
+			<value>ChaseTrigger</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20132c32-d6e2-4cd7-a426-cc850b1de3b2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7ff7546a-4b50-4e7c-8c9e-05384ff4067d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7ff7546a-4b50-4e7c-8c9e-05384ff4067d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.85999995470046997</value>
+		</property>
+	</object>
+</objects>

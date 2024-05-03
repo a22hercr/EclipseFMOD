@@ -226,6 +226,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="pitch">
+			<value>-9.5</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{42c7e16b-8a15-48bb-9f39-537a8e055984}</destination>
 		</relationship>
@@ -365,6 +368,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4cceacd1-c8c9-4864-bab2-2f94a2b65e3d}">
+		<property name="volume">
+			<value>-17</value>
+		</property>
 		<property name="name">
 			<value>Clothes</value>
 		</property>
@@ -573,6 +579,7 @@
 	<object class="MixerBusEffectChain" id="{b63af72b-b369-4c71-9030-ca3206653cd6}">
 		<relationship name="effects">
 			<destination>{c73c7608-f68c-4fd2-b82a-5741ab0b9ddb}</destination>
+			<destination>{21ea5429-2d59-4462-9e45-78eab1907565}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{84bbee54-5bf3-4ee3-9e3f-c167b2211703}" />
@@ -787,6 +794,17 @@
 	<object class="MixerBusFader" id="{39f52cc9-c21f-4a7b-be35-cf7f9fac5384}" />
 	<object class="MixerBusFader" id="{93447ea0-6b61-4845-a42f-e43d29adc1a4}" />
 	<object class="MixerBusFader" id="{c73c7608-f68c-4fd2-b82a-5741ab0b9ddb}" />
+	<object class="ThreeEQEffect" id="{21ea5429-2d59-4462-9e45-78eab1907565}">
+		<property name="lowGain">
+			<value>4.5</value>
+		</property>
+		<property name="midGain">
+			<value>-18.5</value>
+		</property>
+		<property name="highGain">
+			<value>-36</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{cdca17ee-8b10-4e31-a52c-aba9bb5c2c16}" />
 	<object class="MixerBusFader" id="{02cfed90-f7f2-4e5a-b36f-03cc163618ce}" />
 	<object class="MixerBusFader" id="{1a73393b-66bd-4604-96c4-057e476fbdd3}" />

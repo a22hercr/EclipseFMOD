@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4c2bad8a-ff0b-4f50-8e48-49c3d6006bc0}">
+		<property name="name">
+			<value>MusigProgression</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20132c32-d6e2-4cd7-a426-cc850b1de3b2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6334c678-6c3a-4357-b842-6bea4d533e14}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6334c678-6c3a-4357-b842-6bea4d533e14}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

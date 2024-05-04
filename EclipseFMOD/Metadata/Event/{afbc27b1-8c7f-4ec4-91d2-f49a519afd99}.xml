@@ -163,6 +163,7 @@
 		<relationship name="effects">
 			<destination>{5ab20c6a-ecd9-4ae1-b388-42877d77391d}</destination>
 			<destination>{9db84d58-ba65-4151-a5b2-f534fc284114}</destination>
+			<destination>{310ab576-7609-47b2-a019-2248920ed9f9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{12820291-a24b-4391-8289-4c34687f33e5}" />
@@ -174,6 +175,7 @@
 			<destination>{a37facb2-52ca-49f3-bace-62caf1d7c646}</destination>
 		</relationship>
 	</object>
+	<object class="ObjectSpatialiserEffect" id="{310ab576-7609-47b2-a019-2248920ed9f9}" />
 	<object class="Automator" id="{f9005709-0a03-4b1e-aa01-7779da274654}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>midGain</value>
@@ -223,7 +225,7 @@
 			<value>3.0545977011494254</value>
 		</property>
 		<property name="value">
-			<value>-2</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{98e8fa15-ffc1-4373-964e-447fb44ba1b3}">

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{5bc4ba2f-0db8-4fde-a7f3-50ed956b8434}">
+		<property name="name">
+			<value>D2 PostChase Store</value>
+		</property>
+		<relationship name="folder">
+			<destination>{03b00451-76f5-4e60-92bd-28556b1219a8}</destination>
+		</relationship>
+	</object>
+</objects>

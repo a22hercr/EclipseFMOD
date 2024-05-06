@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f0b89538-e8cb-49ab-8a81-1d2b274fd05c}">
+		<property name="name">
+			<value>Dialogue Progression</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20132c32-d6e2-4cd7-a426-cc850b1de3b2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{30f70ae2-5ade-484d-b1cc-e126ee28ea2c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{30f70ae2-5ade-484d-b1cc-e126ee28ea2c}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>13</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+			<value>Value B</value>
+			<value>Value C</value>
+			<value>Value D</value>
+			<value>Value E</value>
+			<value>Value F</value>
+			<value>Value G</value>
+			<value>Value H</value>
+			<value>Value I</value>
+			<value>Value J</value>
+			<value>Value K</value>
+			<value>Value L</value>
+			<value>Value M</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

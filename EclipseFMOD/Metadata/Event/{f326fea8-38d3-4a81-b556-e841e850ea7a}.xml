@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f326fea8-38d3-4a81-b556-e841e850ea7a}">
 		<property name="name">
-			<value>New Event</value>
+			<value>TownMusic</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -262,6 +262,9 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{359a40be-9010-4fcd-8990-8911b36e463b}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{c34ca243-8b9d-43a0-89d9-e1e6e4640dff}</destination>
 		</relationship>
@@ -493,6 +496,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c347a5f0-1537-49d0-afdd-16e7fdac78e1}" />
+	<object class="ADSRModulator" id="{359a40be-9010-4fcd-8990-8911b36e463b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{c34ca243-8b9d-43a0-89d9-e1e6e4640dff}">
 		<relationship name="startPoint">
 			<destination>{147b15d4-9b35-4c6f-a677-55918b80b5ea}</destination>

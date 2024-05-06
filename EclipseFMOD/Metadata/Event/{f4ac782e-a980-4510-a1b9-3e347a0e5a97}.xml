@@ -111,7 +111,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>50</value>
+			<value>59.5</value>
 		</property>
 		<property name="length">
 			<value>0.82303854875283444</value>
@@ -142,6 +142,9 @@
 	<object class="MultiSound" id="{c3d1a46d-d72b-47dc-9009-2d22c419d77d}">
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>60</value>
 		</property>
 		<property name="length">
 			<value>0.8233106575963719</value>

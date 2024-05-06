@@ -75,6 +75,7 @@
 			<destination>{4efbc550-99c8-4c02-99d5-dc7114dd4a32}</destination>
 			<destination>{2d0e63ee-0392-4808-8752-f002642f9cce}</destination>
 			<destination>{8bcba8e5-8a3a-412c-b240-021c86281e00}</destination>
+			<destination>{6237b596-e370-4704-8246-a9696583b67e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{bde87867-d136-4924-835f-f2b9bcc195e1}</destination>
@@ -95,6 +96,7 @@
 			<destination>{2c669bfa-9fcd-44b9-a8f0-fde4dc079a6f}</destination>
 			<destination>{5e868b9f-ac29-4e09-bc59-76fecbd27005}</destination>
 			<destination>{4221b94a-4fde-454f-850e-adbb11adf277}</destination>
+			<destination>{6237b596-e370-4704-8246-a9696583b67e}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{30f70ae2-5ade-484d-b1cc-e126ee28ea2c}</destination>
@@ -202,6 +204,17 @@
 			<destination>{ae817b05-a93d-4168-b348-0abbe3c7c0d0}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{6237b596-e370-4704-8246-a9696583b67e}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>8</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{a2e49ad1-28ad-4bd1-87d7-4770d89cb16c}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{bde87867-d136-4924-835f-f2b9bcc195e1}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -221,7 +234,11 @@
 			<destination>{ea2f71a4-5c81-4332-baf2-70f25b16171e}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{1918f4eb-ffce-4050-95ec-08fab0e867fc}" />
+	<object class="MixerBusPanner" id="{1918f4eb-ffce-4050-95ec-08fab0e867fc}">
+		<property name="stereoPan">
+			<value>24</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b8626d0f-66b5-4e7d-868d-55bdb492e501}" />
 	<object class="MixerBusEffectChain" id="{14b3bff9-3698-4ba9-a43f-bdf5c6d98daa}">
 		<relationship name="effects">

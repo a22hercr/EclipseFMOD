@@ -74,6 +74,7 @@
 			<destination>{d9d6861b-0049-403b-94fa-e71a9a55e0cb}</destination>
 			<destination>{68633ae8-3976-4478-bf47-ad7d869d9057}</destination>
 			<destination>{8dca6bca-96fa-45db-be3e-aa66287f5190}</destination>
+			<destination>{b271e882-4e84-48fa-8792-e2ae4bc6fb1e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3dd33c84-e4c7-4ac7-8d80-8198690dc223}</destination>
@@ -89,6 +90,7 @@
 			<destination>{d9d6861b-0049-403b-94fa-e71a9a55e0cb}</destination>
 			<destination>{68633ae8-3976-4478-bf47-ad7d869d9057}</destination>
 			<destination>{8dca6bca-96fa-45db-be3e-aa66287f5190}</destination>
+			<destination>{b271e882-4e84-48fa-8792-e2ae4bc6fb1e}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{30f70ae2-5ade-484d-b1cc-e126ee28ea2c}</destination>
@@ -124,7 +126,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{45bb235a-2737-4018-996e-4a65ecd095b5}</destination>
@@ -135,7 +137,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>2</value>
+			<value>3</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{1efb45b0-f0e0-4458-b2f7-d9b56d77d8cd}</destination>
@@ -146,7 +148,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>3</value>
+			<value>4</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{c92b42b9-625a-41c7-9937-7695f1493e19}</destination>
@@ -157,7 +159,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>4</value>
+			<value>5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{cc889fa3-8908-4b0e-928f-234b6c20887c}</destination>
@@ -168,7 +170,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>5</value>
+			<value>6</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{c64d4d48-62cb-420a-b953-e86aaae09e93}</destination>
@@ -179,10 +181,21 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>6</value>
+			<value>7</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{37f18e12-9c15-4f20-910e-8c9a394a9b4d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{b271e882-4e84-48fa-8792-e2ae4bc6fb1e}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>1</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{d3271ff9-4513-4b8b-9f8c-0332d329472f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3dd33c84-e4c7-4ac7-8d80-8198690dc223}">

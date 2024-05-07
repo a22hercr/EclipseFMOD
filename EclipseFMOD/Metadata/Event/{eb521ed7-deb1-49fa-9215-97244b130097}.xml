@@ -5,7 +5,7 @@
 			<value>Banging on door</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a40983bd-2b91-4e0b-8461-51829fb3bcb9}</destination>
@@ -152,6 +152,7 @@
 	<object class="MixerBusEffectChain" id="{9ca3c867-5c58-4e11-8004-b5c060ceeee0}">
 		<relationship name="effects">
 			<destination>{7ad75445-43f0-4677-aad9-1fb7efbcdd56}</destination>
+			<destination>{603d9dc0-e2a0-4e8d-9a4e-0bcefffd0a55}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6a8b75cd-076b-42a9-a73d-23bfc3e9cad3}" />
@@ -165,13 +166,21 @@
 	</object>
 	<object class="MixerBusPanner" id="{d6e16cb1-87a2-4088-8ba4-db0fb2dfd53e}" />
 	<object class="MixerBusFader" id="{7ad75445-43f0-4677-aad9-1fb7efbcdd56}" />
+	<object class="SpatialiserEffect" id="{603d9dc0-e2a0-4e8d-9a4e-0bcefffd0a55}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6af8897e-2713-492e-9264-86c638bf1d9f}" />
 	<object class="ThreeEQEffect" id="{0b721521-8fc2-43b1-8711-e5cd4a9fd1f6}">
 		<property name="lowGain">
 			<value>-2.5</value>
 		</property>
+		<property name="midGain">
+			<value>-16.5</value>
+		</property>
 		<property name="highGain">
-			<value>2</value>
+			<value>-43</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{5aa3b0dc-fe30-4e4b-bfd3-15bedd1e7bd0}">

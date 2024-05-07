@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2deb4c94-06ba-41bb-907b-72888a4ca780}">
+		<property name="assetPath">
+			<value>GORE.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>21.820333333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c718811-96e8-4271-ac0d-b38119ae5b4b}</destination>
+		</relationship>
+	</object>
+</objects>

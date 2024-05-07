@@ -28,6 +28,7 @@
 		<relationship name="groupTracks">
 			<destination>{627bc9bc-78cc-4b89-aba3-326d60c1151b}</destination>
 			<destination>{96a54a7e-b8c8-465a-ab88-3ff66d73f1d4}</destination>
+			<destination>{65a3b096-f5c5-4c78-9f6f-cd2a8f5f72e0}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{4967b4f7-808d-4e80-8bb9-4647b562c250}</destination>
@@ -76,15 +77,22 @@
 	</object>
 	<object class="GroupTrack" id="{96a54a7e-b8c8-465a-ab88-3ff66d73f1d4}">
 		<relationship name="modules">
-			<destination>{b0c22de5-4e2b-4678-b1af-4c6c16c74abb}</destination>
-			<destination>{3f0f68df-8991-411e-a5b4-7bfab637354a}</destination>
-			<destination>{34c06978-8d7c-47b8-ba06-da294e072003}</destination>
 			<destination>{a9c2f1c3-05e5-46e4-99a4-af64ad4665c7}</destination>
 			<destination>{40902b32-3d29-40eb-8a74-5a0f84e7ccb4}</destination>
 			<destination>{4c8fa74b-dbaf-4b38-b7f9-9fd238a9ac7e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8b1c5651-7dee-42a1-a111-34513012a86d}</destination>
+		</relationship>
+	</object>
+	<object class="GroupTrack" id="{65a3b096-f5c5-4c78-9f6f-cd2a8f5f72e0}">
+		<relationship name="modules">
+			<destination>{34c06978-8d7c-47b8-ba06-da294e072003}</destination>
+			<destination>{3f0f68df-8991-411e-a5b4-7bfab637354a}</destination>
+			<destination>{b0c22de5-4e2b-4678-b1af-4c6c16c74abb}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{f87fab18-0315-40bc-ab36-12a6472baa66}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{4967b4f7-808d-4e80-8bb9-4647b562c250}">
@@ -145,42 +153,6 @@
 			<destination>{bfad7454-f9e9-4135-9d7a-1ca32ef6aa28}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{b0c22de5-4e2b-4678-b1af-4c6c16c74abb}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>6</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{c99b4d99-1df8-4be2-9135-4322736ea4aa}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{3f0f68df-8991-411e-a5b4-7bfab637354a}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{662f956c-041f-423f-893f-b5765448990d}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{34c06978-8d7c-47b8-ba06-da294e072003}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>4</value>
-		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{d7b0cc1c-6494-4220-a012-95c790dceed9}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{a9c2f1c3-05e5-46e4-99a4-af64ad4665c7}">
 		<property name="isCutoff">
 			<value>true</value>
@@ -234,6 +206,56 @@
 			<destination>{bfad7454-f9e9-4135-9d7a-1ca32ef6aa28}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{34c06978-8d7c-47b8-ba06-da294e072003}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>4</value>
+		</property>
+		<property name="volume">
+			<value>3</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{d7b0cc1c-6494-4220-a012-95c790dceed9}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3f0f68df-8991-411e-a5b4-7bfab637354a}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{662f956c-041f-423f-893f-b5765448990d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{b0c22de5-4e2b-4678-b1af-4c6c16c74abb}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>6</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{c99b4d99-1df8-4be2-9135-4322736ea4aa}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{f87fab18-0315-40bc-ab36-12a6472baa66}">
+		<property name="name">
+			<value>Audio 3</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5c873efe-6582-4beb-9efe-41ff550ec0e4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4816c617-a5a9-4591-97ca-ac434b5a8fb4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{bfad7454-f9e9-4135-9d7a-1ca32ef6aa28}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{a4ffe5da-87ca-4b0e-8bdb-cc4780333382}">
 		<relationship name="effects">
 			<destination>{1d91b455-fefa-4b4a-ba8e-5b05a6cf70d1}</destination>
@@ -257,6 +279,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ef73a655-41a3-4cc5-8a27-b4f9a93581ee}" />
+	<object class="MixerBusEffectChain" id="{5c873efe-6582-4beb-9efe-41ff550ec0e4}">
+		<relationship name="effects">
+			<destination>{c45b3d0b-c9bc-482e-b7c1-9c7f17d70a5f}</destination>
+			<destination>{06e4e74f-0936-4a0f-8d3f-2dc22585c07c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4816c617-a5a9-4591-97ca-ac434b5a8fb4}" />
 	<object class="MixerBusFader" id="{1d91b455-fefa-4b4a-ba8e-5b05a6cf70d1}" />
 	<object class="MixerBusFader" id="{412b01ca-fa70-42f7-bbf2-df767990a7fb}" />
 	<object class="ThreeEQEffect" id="{16146e46-4295-4372-8687-1b6e91d49d67}">
@@ -284,6 +313,30 @@
 	<object class="ThreeEQEffect" id="{d5a622ed-6957-4b19-b860-4b132350ba11}">
 		<property name="lowGain">
 			<value>-1.5</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{c45b3d0b-c9bc-482e-b7c1-9c7f17d70a5f}" />
+	<object class="SFXReverbEffect" id="{06e4e74f-0936-4a0f-8d3f-2dc22585c07c}">
+		<property name="decayTime">
+			<value>10000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>24.5</value>
+		</property>
+		<property name="lateDelay">
+			<value>48</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>83</value>
+		</property>
+		<property name="highCut">
+			<value>14500</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>96</value>
+		</property>
+		<property name="wetLevel">
+			<value>-29.5</value>
 		</property>
 	</object>
 </objects>

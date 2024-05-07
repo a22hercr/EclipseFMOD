@@ -126,6 +126,9 @@
 		<property name="length">
 			<value>23.658072562358278</value>
 		</property>
+		<property name="pitch">
+			<value>-2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3fd770a0-36d6-4c62-a424-0dc8457c46f5}</destination>
 		</relationship>
@@ -148,7 +151,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{42f8382f-00a3-4ed2-9ea4-f72ff2d0da56}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-21.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -181,10 +184,10 @@
 			<value>23.658072562358278</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>925</value>
+			<value>12000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>2500</value>
+			<value>22000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>9.55000019</value>
@@ -198,7 +201,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a2255898-0415-4071-8915-849a5bb57d10}">
 		<property name="volume">
-			<value>7</value>
+			<value>-0.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -218,7 +221,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>20</value>
+			<value>23.658072562358278</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{18821e42-922b-4cff-a913-b0cb298461a2}</destination>
@@ -262,6 +265,7 @@
 	<object class="MixerBusEffectChain" id="{217f0b32-5a4e-4228-b81c-4a7eb1f15bf6}">
 		<relationship name="effects">
 			<destination>{f28cb94e-f140-484c-bdf5-b8952d20a319}</destination>
+			<destination>{7709ad0d-4e6e-4d50-9238-ecf26d8cdcee}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c0d0357c-7055-4763-af4a-726f82c6d617}" />
@@ -333,6 +337,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f28cb94e-f140-484c-bdf5-b8952d20a319}" />
+	<object class="ThreeEQEffect" id="{7709ad0d-4e6e-4d50-9238-ecf26d8cdcee}">
+		<property name="highGain">
+			<value>-4.5</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{c02dc8cc-dc76-4b46-9d98-1a255c86cc47}">
 		<relationship name="audioFile">
 			<destination>{b61dd30b-7091-4767-91aa-f9a6f7f9175f}</destination>

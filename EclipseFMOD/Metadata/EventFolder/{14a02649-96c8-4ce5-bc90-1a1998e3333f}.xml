@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{14a02649-96c8-4ce5-bc90-1a1998e3333f}">
+		<property name="name">
+			<value>911 operator</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf3f3b6b-c7cd-4c7c-b52d-2d4921b3492c}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{04562589-f69b-494e-a193-d5d4a5fb0d64}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../../Unity/Projects/Eclipse/Assets/Plugins/FMOD/Banks</value>
+			<value>../../Eclipse/Assets/Plugins/FMOD/Banks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{c9d5dcfb-859f-471f-bc30-3f5e99b7f508}</destination>

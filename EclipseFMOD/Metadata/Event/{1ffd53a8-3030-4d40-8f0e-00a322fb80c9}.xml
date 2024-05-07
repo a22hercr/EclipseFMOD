@@ -71,28 +71,28 @@
 			<destination>{f0b5075b-3488-4e97-be47-26758c572990}</destination>
 			<destination>{954dec16-bb52-4386-ad5f-0aa112e9ccd0}</destination>
 			<destination>{057d1cee-ef95-4771-b4c0-e640a125dd0f}</destination>
-			<destination>{cfa85c57-9ee3-4be6-a561-17f93882d90f}</destination>
 			<destination>{21660cd2-0d19-4e7b-bd75-f80422f1ce36}</destination>
 			<destination>{5e603f73-89ad-435b-a71c-dbd7f0efa398}</destination>
+			<destination>{ce1197a1-3db5-427d-b115-0ebdb2530c9e}</destination>
+			<destination>{11b0e08c-1b7f-48cc-a167-0102a63f0c50}</destination>
+			<destination>{c7c912c9-7a98-4880-b168-2d935b9a17e9}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{86119cf1-192c-48ba-8403-82485cf77e03}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{72135e42-d1c6-4167-a4a2-93f8df0402dd}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
-	</object>
+	<object class="Timeline" id="{72135e42-d1c6-4167-a4a2-93f8df0402dd}" />
 	<object class="ParameterProxy" id="{b53a5f5b-919a-4205-a7b6-b775de8dff9f}">
 		<relationship name="modules">
 			<destination>{a38bebc8-5047-44a5-a601-a129d3ac0dd6}</destination>
 			<destination>{f0b5075b-3488-4e97-be47-26758c572990}</destination>
 			<destination>{954dec16-bb52-4386-ad5f-0aa112e9ccd0}</destination>
 			<destination>{057d1cee-ef95-4771-b4c0-e640a125dd0f}</destination>
-			<destination>{cfa85c57-9ee3-4be6-a561-17f93882d90f}</destination>
 			<destination>{21660cd2-0d19-4e7b-bd75-f80422f1ce36}</destination>
 			<destination>{5e603f73-89ad-435b-a71c-dbd7f0efa398}</destination>
+			<destination>{ce1197a1-3db5-427d-b115-0ebdb2530c9e}</destination>
+			<destination>{11b0e08c-1b7f-48cc-a167-0102a63f0c50}</destination>
+			<destination>{c7c912c9-7a98-4880-b168-2d935b9a17e9}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{30f70ae2-5ade-484d-b1cc-e126ee28ea2c}</destination>
@@ -156,23 +156,12 @@
 			<destination>{0c4aae65-872d-4831-8d29-b6a716387f24}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{cfa85c57-9ee3-4be6-a561-17f93882d90f}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>4</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{caabe2fd-e803-4553-9aab-17040ae3630e}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{21660cd2-0d19-4e7b-bd75-f80422f1ce36}">
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>5</value>
+			<value>7</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{bffddcdf-fcab-4627-8c77-840a8ab0d348}</destination>
@@ -183,10 +172,43 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>6</value>
+			<value>8</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{bb748bd5-9f22-4a3a-a5f2-1f3157dfa8d0}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ce1197a1-3db5-427d-b115-0ebdb2530c9e}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>4</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{cc9a57b5-ef2c-4b27-8bdd-e68a1244e926}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{11b0e08c-1b7f-48cc-a167-0102a63f0c50}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{b1190c39-5181-4bad-a599-9f2d698a32ad}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c7c912c9-7a98-4880-b168-2d935b9a17e9}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>6</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{3ae3ea21-a474-4cb5-8bf4-b0ea5f824ab8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{86119cf1-192c-48ba-8403-82485cf77e03}">

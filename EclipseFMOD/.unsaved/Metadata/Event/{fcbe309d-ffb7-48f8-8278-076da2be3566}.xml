@@ -69,8 +69,6 @@
 		<relationship name="modules">
 			<destination>{7f40a294-3318-4254-b374-a2d2dd821c69}</destination>
 			<destination>{0eec18db-fb18-4369-bfe1-e2f9465ece68}</destination>
-			<destination>{b8c09cea-f7eb-4106-a545-cd48d9dda1d3}</destination>
-			<destination>{b48acf5b-edb1-4db2-a0e5-4fc961d3ae3a}</destination>
 			<destination>{8c66936a-8513-4796-a6e9-587a4ba55cb6}</destination>
 			<destination>{8c36390d-0d87-4c0c-8bb1-5590561b92c0}</destination>
 		</relationship>
@@ -78,12 +76,7 @@
 			<destination>{81c5fe00-f864-400e-8779-460ea3894c62}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{4d7a9596-def7-49bf-908e-7f1395a96cf6}">
-		<relationship name="modules">
-			<destination>{b8c09cea-f7eb-4106-a545-cd48d9dda1d3}</destination>
-			<destination>{b48acf5b-edb1-4db2-a0e5-4fc961d3ae3a}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{4d7a9596-def7-49bf-908e-7f1395a96cf6}" />
 	<object class="ParameterProxy" id="{7ba1af30-1637-4a80-8347-9450f17e0301}">
 		<relationship name="modules">
 			<destination>{7f40a294-3318-4254-b374-a2d2dd821c69}</destination>
@@ -129,31 +122,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{e72fa8f7-ec49-40cd-84f9-0c24dfad6faa}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{b8c09cea-f7eb-4106-a545-cd48d9dda1d3}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="length">
-			<value>7</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{16cb17ff-4042-4b7b-9f1c-ac9f1d5c46f5}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{b48acf5b-edb1-4db2-a0e5-4fc961d3ae3a}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>7</value>
-		</property>
-		<property name="length">
-			<value>6.0787755102040819</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{abe50c03-a688-4054-b585-64cf43555189}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8c66936a-8513-4796-a6e9-587a4ba55cb6}">

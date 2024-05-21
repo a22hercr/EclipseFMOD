@@ -5,7 +5,7 @@
 			<value>ForestPreChase</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b5f98299-ba87-4547-be8d-1e561b732e93}</destination>
@@ -56,12 +56,15 @@
 			<destination>{0dda0e05-e166-4543-b83a-f77a7baf2daa}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e38a5714-47b8-427e-b4f0-2979ae52836a}</destination>
+			<destination>{7642c82d-9c17-477c-9336-0b81d5e06805}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b0ef75e3-7fc3-402a-b3b8-73bcc2e6b5dd}">
 		<property name="maxVoices">
 			<value>1</value>
+		</property>
+		<property name="maximumDistance">
+			<value>40</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{acb275d1-fdf7-4da8-93b0-e2629da74920}" />
@@ -167,6 +170,8 @@
 	<object class="MixerBusEffectChain" id="{50c286b9-7b8d-412b-ba81-06deb27a1cf3}">
 		<relationship name="effects">
 			<destination>{6189ab68-4cd0-49b4-85c6-25c1ae3fc936}</destination>
+			<destination>{b5aebdf9-abf4-45f0-b8ac-e72ed10f1a9a}</destination>
+			<destination>{f9ef307f-897e-40d2-bd79-ca124f2b01a9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{27a4fef1-a342-4473-af78-14e8d5ed864d}" />
@@ -176,14 +181,40 @@
 			<destination>{979f8b65-b819-4e38-bc31-74c8f95afc1c}</destination>
 			<destination>{85e9d6d7-b502-4821-9488-74dd03fc7082}</destination>
 			<destination>{2cb36b9a-0a1c-4e36-8aa5-437fa9d18cfe}</destination>
+			<destination>{76ec298a-1025-4868-8abd-42f298fd48dc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bf4b9cc2-29f8-429b-8405-df220ec41cae}" />
 	<object class="MixerBusFader" id="{6189ab68-4cd0-49b4-85c6-25c1ae3fc936}" />
+	<object class="SpatialiserEffect" id="{b5aebdf9-abf4-45f0-b8ac-e72ed10f1a9a}">
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>0.800000012</value>
+		</property>
+		<property name="minimumExtent">
+			<value>46</value>
+		</property>
+	</object>
+	<object class="MixerSend" id="{f9ef307f-897e-40d2-bd79-ca124f2b01a9}">
+		<property name="level">
+			<value>-37</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{5d587929-4c20-4143-90a8-78b896a9549b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{979f8b65-b819-4e38-bc31-74c8f95afc1c}" />
 	<object class="ThreeEQEffect" id="{85e9d6d7-b502-4821-9488-74dd03fc7082}">
 		<property name="lowGain">
-			<value>-7</value>
+			<value>-5.5</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{2cb36b9a-0a1c-4e36-8aa5-437fa9d18cfe}">
@@ -192,6 +223,47 @@
 		</property>
 		<property name="wetLevel">
 			<value>-31</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{76ec298a-1025-4868-8abd-42f298fd48dc}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeB">
+			<value>5</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="filterTypeD">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>3270.302</value>
+		</property>
+		<property name="frequencyB">
+			<value>123.843109</value>
+		</property>
+		<property name="frequencyC">
+			<value>165.518555</value>
+		</property>
+		<property name="frequencyD">
+			<value>5053.00928</value>
+		</property>
+		<property name="qualityA">
+			<value>0.808191359</value>
+		</property>
+		<property name="qualityB">
+			<value>1.07803488</value>
+		</property>
+		<property name="gainA">
+			<value>-20.608696</value>
+		</property>
+		<property name="gainC">
+			<value>-1.82608795</value>
+		</property>
+		<property name="gainD">
+			<value>-0.26086998</value>
 		</property>
 	</object>
 </objects>

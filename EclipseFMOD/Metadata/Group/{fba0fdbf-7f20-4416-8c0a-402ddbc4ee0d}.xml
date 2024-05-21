@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{fba0fdbf-7f20-4416-8c0a-402ddbc4ee0d}">
+		<property name="name">
+			<value>D3Lake</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2b2768c2-ed35-4e58-b182-9b5766a37576}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{710ebac9-4605-4fc4-b1bf-f03763be9049}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c1670cd7-65b6-47af-9fbf-bcf5daaaea95}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2b2768c2-ed35-4e58-b182-9b5766a37576}">
+		<relationship name="effects">
+			<destination>{b176b97d-2236-436b-b8ef-606b686ff698}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{710ebac9-4605-4fc4-b1bf-f03763be9049}" />
+	<object class="MixerBusFader" id="{b176b97d-2236-436b-b8ef-606b686ff698}" />
+</objects>

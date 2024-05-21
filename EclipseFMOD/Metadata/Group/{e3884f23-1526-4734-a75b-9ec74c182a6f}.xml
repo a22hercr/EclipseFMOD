@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{e3884f23-1526-4734-a75b-9ec74c182a6f}">
+		<property name="name">
+			<value>D3HsPostSigil</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{26f86806-6b02-48b0-ae13-f70fb24c085b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0c3c5cfe-fcf3-45eb-90a6-e6ffc5444540}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c1670cd7-65b6-47af-9fbf-bcf5daaaea95}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{26f86806-6b02-48b0-ae13-f70fb24c085b}">
+		<relationship name="effects">
+			<destination>{b6e33070-db20-417d-af45-43b4c242e4a6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0c3c5cfe-fcf3-45eb-90a6-e6ffc5444540}" />
+	<object class="MixerBusFader" id="{b6e33070-db20-417d-af45-43b4c242e4a6}" />
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{ec0002f0-c6d1-4fde-8cde-d129741d22c3}">
+		<property name="name">
+			<value>ForestChase</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9166bc42-ad4f-4bf9-adec-52bb0d5d0c0f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e2842af9-cbd1-4a24-9365-3b2c3d66d397}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{479e7baa-9df5-4a47-a276-206b39f2aa88}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9166bc42-ad4f-4bf9-adec-52bb0d5d0c0f}">
+		<relationship name="effects">
+			<destination>{8c778be9-0dad-4618-a998-6b2f6ebcb245}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e2842af9-cbd1-4a24-9365-3b2c3d66d397}" />
+	<object class="MixerBusFader" id="{8c778be9-0dad-4618-a998-6b2f6ebcb245}" />
+</objects>

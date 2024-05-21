@@ -190,7 +190,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ce21f1b5-8c0b-4f98-a54c-cd163bf1f252}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Grass walk</value>
@@ -868,10 +868,10 @@
 	<object class="MixerBusFader" id="{a3d106c9-82dd-49c4-965d-347c68e5de9a}" />
 	<object class="ThreeEQEffect" id="{a5ab8b13-b84c-4c7e-9209-e7417642ce5b}">
 		<property name="midGain">
-			<value>-41</value>
+			<value>-14.5</value>
 		</property>
 		<property name="highGain">
-			<value>-20</value>
+			<value>-5.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{68d4308a-a826-4af6-a6f8-549547410282}" />

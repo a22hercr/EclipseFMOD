@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>VO</value>
 		</property>
+		<relationship name="masters">
+			<destination>{7ef76ecd-8ebd-4f4a-adfc-c081f8844290}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{056eda9f-b341-4c8c-a288-04b28ac341e7}</destination>
 		</relationship>
